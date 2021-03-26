@@ -3,7 +3,7 @@ A React.js based web app to access and display some information about all charac
 
 ## How to run:
 
-Install node package manager here: https://nodejs.org/en/  
+Install node package manager here: https://nodejs.org/en/
 To create static server on your local network, in the project directory use:  
 - npm install -g serve
 - serve -s build
