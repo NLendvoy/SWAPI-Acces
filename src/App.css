@@ -1,0 +1,52 @@
+.App {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.person-list {
+  width: 100%;
+}
+
+.personGeneral-container {
+  padding-left: 100%;
+  min-height: 180px;
+  padding-bottom: 20px;
+  border-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.personGeneral-container h2,
+.personGeneral-container h5 {
+  margin-left: 20px;
+}
+
+.personGeneral-container h2 {
+  font-family: "Raleway";
+}
+
+.personGeneral-container h5 {
+  font-size: 16px;
+  text-indent: 15px;
+}
