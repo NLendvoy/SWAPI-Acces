@@ -9,4 +9,4 @@ npm install -g serve
 serve -s build
 
 This will give all devices on your local network access through port 5000
-*See output of "serve -s build" for specific IP. Should be 172.16.1.x
+- See output of "serve -s build" for specific IP. Should be 172.16.1.x
